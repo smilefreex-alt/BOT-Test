@@ -7,7 +7,7 @@ import threading
 import time
 
 # Configuración del servidor
-HOST = '127.0.0.1'  # Dirección IP del servidor
+HOST = '0.0.0.0'  # Dirección IP del servidor
 PORT = 65432        # Puerto del servidor
 # Lista para almacenar los clientes conectados
 clients = []
@@ -79,3 +79,4 @@ if __name__ == "__main__":
 
     #Esto lo que hace es crear un cliente que se conecta al servidor de la botnet de uso ético. El cliente puede enviar mensajes al servidor y recibir respuestas. Puedes ejecutar este código en varias máquinas para simular múltiples clientes conectándose al servidor. Recuerda siempre utilizar esta botnet de manera ética y con el consentimiento de los propietarios de los dispositivos involucrados. 
     
+
